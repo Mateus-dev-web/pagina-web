@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('imagens/aurora.jpg');
+    background-position: center;
+    position: absolute;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 80px;
+    padding: 20px;
+}
+.menus{
+    display: flex;
+    justify-content: right;
+}
+h1{
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+li{
+ list-style: none;
+ margin-top: -20px;
+ margin-right: 30px;
+ padding: 0px 0px;
+}
+a{
+ text-decoration: none;
+ font-weight: bold;
+ color: white;
+}
+a:hover{
+ box-shadow: 1px 7px 15px rgb(125, 121, 115);
+ border: 1px solid rgb(236, 231, 231);
+ border-radius: 7px;
+ padding: 10px;
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+footer{
+    font-weight: bold;
+    color: rgb(237, 240, 238);
+    display: flex;
+  
+}
+.relogio{
+    width: 80px;
+    height: 20px;
+    font-size: 32px;
+    margin-top: 37%;
+    margin-left: 20px;
+   
+}
+.data{
+    color: rgb(248, 245, 244);
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 40%;
+    margin-left: -55px;
+    width: 80px;
+    height: 20px;
+}
+p{
+    margin-left: 63%;
+    margin-top: 39%;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: italic;
+}
